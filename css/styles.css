@@ -46,14 +46,16 @@ a {
   color: var(--accent-color);
 }
 .header-adress {
+}
+.header-adress-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.header-adress:hover,
-.header-adress:focus {
+.header-adress-list:hover,
+.header-adress-list:focus {
   color: var(--accent-color);
 }
 /* Блок Герой */
@@ -161,6 +163,7 @@ a {
 .footer-list {
 }
 .footer-list-address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
@@ -168,6 +171,7 @@ a {
   color: #ffffff;
 }
 .footer-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
