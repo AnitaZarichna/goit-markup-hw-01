@@ -5,8 +5,172 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #ffffff;
+  font-family: "Roboto", Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* Шапка страницы */
+.header {
+}
+.header-logo,
+.footer-logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0, 19;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.header-logo-web,
+.footer-logo-web {
+  color: var(--accent-color);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+.header-adress:hover,
+.header-adress:focus {
+  color: var(--accent-color);
+}
+/* Блок Герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-titile {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/* Особености компании */
+.features {
+}
+.features-title {
+  visibility: hidden;
+}
+.features-list {
+}
+.features-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+/* Чем мы занимаемся */
+.works {
+}
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.works-img {
+}
+/* Наша команда */
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Футер */
+.footer {
+  background: #2f303a;
+}
+.footer-address {
+}
+.footer-list {
+}
+.footer-list-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
